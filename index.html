@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS_basics.css">
+    <script src="https://kit.fontawesome.com/5c9e34ae72.js" crossorigin="anonymous"></script>
+    <title>portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Oswald&display=swap" rel="stylesheet">
+    
+    <style>
+        header{
+            font-size: 39px;
+            font-weight: 200;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            color:rgb(255, 255, 255)
+            
+            
+        }
+
+        .navbar{
+            padding-left: 44px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: larger;
+            padding-bottom: 35px;
+            position: absolute;
+            top: 25%;
+            left: 19%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        
+        li{
+            display: inline-block;
+        }
+        
+        .coollink::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+    }
+
+    .coollink:hover::after{
+       width:100% ;
+       transition: width .3s;
+    }
+        
+    .homepage{
+            background-image: url(a.jpg);
+            width: 2090px;
+            height: 1000px;
+            font-size: larger;
+            margin: 0%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .foot{
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+
+        }
+
+        .abc{
+            color: rgb(237, 227, 238);
+
+        }
+
+        #p2{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #p1{
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(255, 255, 255);
+            padding-left: 100px;
+            font-size: 100px;
+        }
+
+        .asm{
+            color: rgb(135, 13, 13);
+        }
+
+        #sam{
+            font-size: 45px;
+            color: rgb(255, 255, 255);
+            padding-bottom: 0px;
+            padding-top: 0px;
+            line-height: -2em;
+        }
+
+        .foot{
+            align-items: center;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+
+       *{
+        box-sizing: border-box;
+       }
+        
+       
+    </style>
+</head>
+<body class = "homepage">
+    <header><h1 class = "title"><big><b>MY PORTFOLIO</b></big></h1></header>
+    <nav class="navbar">
+        <li><a style = "color:rgb(255, 255, 255) ; text-decoration: none; " href="http://127.0.0.1:5500/portfolio%20files/index.html" class = "coollink"><i class="fa-solid fa-house"></i>&ensp;Home&ensp;&ensp;&ensp;&ensp;</a></li>
+        <li><a style = "color:rgb(255, 255, 255) ; text-decoration: none; " href="http://127.0.0.1:5500/portfolio%20files/index2.html" class = "coollink"><i class="fa-solid fa-user"></i>&ensp;About me&ensp;&ensp;&ensp;&ensp;</a></li>
+        <li><a style = "color:rgb(255, 255, 255) ; text-decoration: none; " href="http://127.0.0.1:5500/portfolio%20files/index3.html" class = "coollink"><i class="fa-solid fa-handshake"></i>&ensp;Connect with me</a></li>
+    
+    </nav>
+
+    <p class = "abc" id="p1"><b>Hey, I'm <span class = "asm">Aditya.<br></span></b>
+    <span id="sam">Welcome to my student portfolio page. I hope you have a <br>great time navigating through the page   : )</span></p>
+    
+
+   
+<footer class="foot">
+    <div>
+        <i class = "fa fa-user-circle-o fa-3x" style = "width:10p x; padding-top: 25px; padding-bottom: 9px;"></i>
+    </div>
+    <p><i class="fa-solid fa-phone fa-1.5x"></i>&ensp;&ensp;<big>contact number:+91 6969696969</big></p>
+    <p><big><b>Follow me on social media</b></big></p>
+    <a href="https://twitter.com/aditya261004" target="_blank">
+        <i class="fa-brands fa-twitter fa-2x" style="color: white;"></i>
+    </a>&ensp;
+    
+    
+    <a href="https://www.instagram.com/_adityaat16/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x" style="color: white;"></i>
+            
+    </a>
+    &ensp;
+
+    
+    <a href="https://www.linkedin.com/in/aditya-mastud-18289025a/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x" style="color: white;"></i>
+    </a>
+    
+
+
+
+
+
+</footer>
+   
+    
+   
+</body>
+</html>
